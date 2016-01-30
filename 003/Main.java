@@ -14,8 +14,8 @@ class Solver {
 		}
 		return true;
 	}
-  public BigInteger solve() {
-    BigInteger number = new BigInteger("600851475143");
+	public BigInteger solve() {
+		BigInteger number = new BigInteger("600851475143");
 		BigInteger prime = new BigInteger("2");
 		BigInteger two = new BigInteger("2");
 		BigInteger factor = BigInteger.ZERO;
@@ -33,12 +33,12 @@ class Solver {
 			}
 		}
 		return factor;
-  }
+	}
 }
 
 class Main {
-  public static void main(String[] args) {
-    Solver s = new Solver();
-    System.out.println(s.solve());
-  }
+	public static void main(String[] args) {
+		Solver s = new Solver();
+		System.out.println(s.solve());
+	}
 }

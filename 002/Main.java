@@ -2,7 +2,7 @@ import java.math.*;
 import java.util.*;
 
 class Solver {
-  public int solve() {
+	public int solve() {
 		int sum = 2;
 		int fib = 0;
 		List<Integer> fibs = new ArrayList<Integer>();
@@ -16,12 +16,12 @@ class Solver {
 			}
 		}
 		return sum;	
-  }
+	}
 }
 
 class Main {
-  public static void main(String[] args) {
-    Solver s = new Solver();
-    System.out.println(s.solve());
-  }
+	public static void main(String[] args) {
+		Solver s = new Solver();
+		System.out.println(s.solve());
+	}
 }

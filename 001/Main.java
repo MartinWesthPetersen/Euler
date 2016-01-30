@@ -2,8 +2,8 @@ import java.math.*;
 import java.util.*;
 
 class Solver {
-  public int solve() {
-    int sum = 0;
+	public int solve() {
+		int sum = 0;
 		for (int i = 0; i < 1000; i += 3) {
 			sum += i;
 		}
@@ -13,12 +13,12 @@ class Solver {
 			}
 		}
 		return sum;
-  }
+	}
 }
 
 class Main {
-  public static void main(String[] args) {
-    Solver s = new Solver();
-    System.out.println(s.solve());
-  }
+	public static void main(String[] args) {
+		Solver s = new Solver();
+		System.out.println(s.solve());
+	}
 }
