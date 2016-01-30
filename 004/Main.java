@@ -9,8 +9,8 @@ class Solver {
 		return head.equals(digits.substring(digits.length() - digits.length() / 2));
 	}
 
-  public int solve() {
-   	int max = 0;
+	public int solve() {
+		int max = 0;
 		int product = 0;
 		for (int i = 100; i < 1000; i++) {
 			for (int j = 100; j < 1000; j++) {
@@ -21,12 +21,12 @@ class Solver {
 			}
 		}
 		return max;
-  }
+	}
 }
 
 class Main {
-  public static void main(String[] args) {
-    Solver s = new Solver();
-    System.out.println(s.solve());
-  }
+	public static void main(String[] args) {
+		Solver s = new Solver();
+		System.out.println(s.solve());
+	}
 }
