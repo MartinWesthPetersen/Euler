@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="001/|003/|005/|007/|009/|047/|049/|050/|002/|004/|006/|008/|026/|031/|046/|048/" kind="src" path=""/>
+	<classpathentry kind="src" path="001"/>
+	<classpathentry kind="src" path="002"/>
+	<classpathentry kind="src" path="003"/>
+	<classpathentry kind="src" path="004"/>
+	<classpathentry kind="src" path="005"/>
+	<classpathentry kind="src" path="006"/>
+	<classpathentry kind="src" path="007"/>
+	<classpathentry kind="src" path="008"/>
+	<classpathentry kind="src" path="009"/>
+	<classpathentry kind="src" path="026"/>
+	<classpathentry kind="src" path="031"/>
+	<classpathentry kind="src" path="046"/>
+	<classpathentry kind="src" path="047"/>
+	<classpathentry kind="src" path="048"/>
+	<classpathentry kind="src" path="049"/>
+	<classpathentry kind="src" path="050"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
