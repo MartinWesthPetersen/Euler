@@ -13,13 +13,9 @@ class Solver {
 	}
 }
 
-
-
-
 class Main {
 	public static void main(String[] args) {
 		Solver s = new Solver();
-		System.out.println("Hej");
 		System.out.println(s.solve());
 	}
 }
